@@ -1,1 +1,6 @@
-<create-post></create-post>
+
+<header></header>
+<main>
+    <create-post (postCreated)="onPostAdded($event)"></create-post>
+    <post-list></post-list>
+</main>
